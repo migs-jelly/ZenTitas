@@ -11,15 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="428627d1-79b5-4e70-ae0c-6ae1b6d9bfc5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SkyRoads.Entitas/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SkyRoads.Entitas/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SkyRoads.Entitas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SkyRoads.Entitas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Core/Behavior/IGameModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Code/Core/Behavior/IGameModule.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/GameListeners.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/GameListeners.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/GameStateSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/GameStateSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerDirectionSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerDirectionSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/GameModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/GameModule.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Scenes/SpaceScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Scenes/SpaceScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +30,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/EntitasData/Game/Player/Direction.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Core/Components/IGameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic/Helpers/IGameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic/Helpers/GameContextController.cs" />
@@ -52,7 +43,6 @@
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/InputSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Listeners/IGameStateListener.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Helpers/ContextHelpers.cs" />
-        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/GameFeature.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Core/Components/IPlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/EntitasData/Data/Vector3.cs" />
         <option value="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/GameState.cs" />
@@ -89,6 +79,8 @@
         <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Core/Behavior/IGameModule.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainController.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/GameModule.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/GameFeature.cs" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -153,7 +145,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610443962377</updated>
-      <workItem from="1610443972158" duration="17331000" />
+      <workItem from="1610443972158" duration="17563000" />
     </task>
     <servers />
   </component>
