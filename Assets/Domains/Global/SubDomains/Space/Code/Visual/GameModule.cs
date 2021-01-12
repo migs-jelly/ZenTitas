@@ -1,15 +1,11 @@
-using System.Collections.Generic;
 using Domains.Global.Code.Core.Behavior;
-using Domains.Global.SubDomains.Game.Code.Core.Components;
-using Domains.Global.SubDomains.Game.Code.Logic;
-using Domains.Global.SubDomains.Game.Code.Logic.Game;
-using Domains.Global.SubDomains.Game.Code.Logic.Input;
-using Domains.Global.SubDomains.Game.Code.Logic.Listeners;
-using Domains.Global.SubDomains.Game.Code.Logic.Player;
-using Domains.Global.SubDomains.Game.Code.Visual.Components;
+using Domains.Global.SubDomains.Space.Code.Core.Components;
+using Domains.Global.SubDomains.Space.Code.Logic;
+using Domains.Global.SubDomains.Space.Code.Logic.Systems;
+using Domains.Global.SubDomains.Space.Code.Visual.Components;
 using Zenject;
 
-namespace Domains.Global.SubDomains.Game.Code.Visual
+namespace Domains.Global.SubDomains.Space.Code.Visual
 {
     public class GameModule : IGameModule
     {

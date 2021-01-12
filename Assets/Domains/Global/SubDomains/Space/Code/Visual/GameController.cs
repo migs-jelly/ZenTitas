@@ -2,19 +2,19 @@ using Domains.Global.Code.Visual;
 using UnityEngine;
 using Zenject;
 
-namespace Domains.Global.SubDomains.Game.Code.Visual
+namespace Domains.Global.SubDomains.Space.Code.Visual
 {
     public class GameController : MonoBehaviour
     {
         private GameModule _module;
-        private GlobalDomain _globalDomain;
+        private GlobalDomainContext _globalDomainContext;
         
         [Inject] private DiContainer _container;
 
         private void Awake()
         {
             InstallBindings();
-            _globalDomain.AddModule(_module);
+            _globalDomainContext.AddModule(_module);
         }
 
         public void InstallBindings()
@@ -22,7 +22,7 @@ namespace Domains.Global.SubDomains.Game.Code.Visual
             _container.Bind<GameModule>().AsSingle().NonLazy();
 
             _module = _container.Resolve<GameModule>();
-            _globalDomain = _container.Resolve<GlobalDomain>();
+            _globalDomainContext = _container.Resolve<GlobalDomainContext>();
         }
     }
 }

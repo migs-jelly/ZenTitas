@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using EntitasData.Domains.Game.Game;
+using EntitasData.Domains.Space;
 
 public static class GameComponentsLookup {
 

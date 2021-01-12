@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using Domains.Global.Code.Core.Behavior;
-using Domains.Global.SubDomains.Game.Code.Logic.Helpers;
+using Domains.Global.SubDomains.Space.Code.Logic.Helpers;
 using Entitas;
 using Zenject;
 
-namespace Domains.Global.SubDomains.Game.Code.Logic.Player
+namespace Domains.Global.SubDomains.Space.Code.Logic.Systems
 {
     public class PlayerDirectionSystem : ReactiveSystem<PlayerEntity>
     {

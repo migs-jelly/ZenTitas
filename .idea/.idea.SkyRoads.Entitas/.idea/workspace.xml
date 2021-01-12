@@ -11,120 +11,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="428627d1-79b5-4e70-ae0c-6ae1b6d9bfc5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Domains.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Core/Behavior/IReceiver.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Core/Behavior/IReceiver.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Core/Structs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Core/Structs/Vector3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Data/Vector3.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Core/Structs/Vector3.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Data/Vector3.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Core.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Core.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Core/Components.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Core/Components.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Core/Components/IPlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Core/Components/IPlayerInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Core/Components/IPlayerInput.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Core/Components/IPlayerInput.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Core/SkyRoads.Game.Core.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Core/SkyRoads.Game.Core.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Core/SkyRoads.Game.Core.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Core/SkyRoads.Game.Core.asmdef.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Game.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Game.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Game/GameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Game/GameState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Game/GameState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Game/GameState.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Components.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Contexts.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Contexts.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Feature.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Feature.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Game.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Game/Components.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Game/Components/GameGameStateComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Game/Components/GameGameStateComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Game/GameAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Game/GameAttribute.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Game/GameComponentsLookup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Game/GameComponentsLookup.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Game/GameContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Game/GameContext.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Game/GameEntity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Game/GameEntity.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Game/GameMatcher.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Game/GameMatcher.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Input.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Input/InputAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Input/InputAttribute.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Input/InputComponentsLookup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Input/InputComponentsLookup.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Input/InputContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Input/InputContext.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Input/InputEntity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Input/InputEntity.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Input/InputMatcher.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Input/InputMatcher.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Player.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Player/Components.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Player/Components/PlayerAccelerationComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Player/Components/PlayerAccelerationComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Player/Components/PlayerDeathComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Player/Components/PlayerDeathComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Player/Components/PlayerDirectionComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Player/Components/PlayerDirectionComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Player/PlayerAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Player/PlayerAttribute.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Player/PlayerComponentsLookup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Player/PlayerComponentsLookup.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Player/PlayerContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Player/PlayerContext.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Player/PlayerEntity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Player/PlayerEntity.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Player/PlayerMatcher.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Generated/Player/PlayerMatcher.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Input.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Input.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Player.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Player/Acceleration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Acceleration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Player/Acceleration.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Acceleration.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Player/Death.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Death.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Player/Death.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Death.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Player/Direction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Direction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/Player/Direction.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Direction.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/SkyRoads.Game.Data.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Data/SkyRoads.Game.Data.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic/Game.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic/Game/GameStateSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/GameStateSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic/Game/GameStateSystem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/GameStateSystem.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic/GameFeature.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/GameFeature.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic/GameFeature.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/GameFeature.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic/GameListeners.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/GameListeners.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic/GameListeners.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/GameListeners.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic/Helpers.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Helpers.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic/Helpers/ContextHelpers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Helpers/ContextHelpers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic/Helpers/ContextHelpers.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Helpers/ContextHelpers.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic/Input.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic/Input/InputSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/InputSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic/Input/InputSystem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/InputSystem.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic/Listeners.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Listeners.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic/Listeners/IGameStateListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Listeners/IGameStateListener.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic/Listeners/IGameStateListener.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Listeners/IGameStateListener.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic/Player.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic/Player/PlayerAccelerationSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerAccelerationSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic/Player/PlayerAccelerationSystem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerAccelerationSystem.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic/Player/PlayerDirectionSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerDirectionSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic/Player/PlayerDirectionSystem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerDirectionSystem.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic/SkyRoads.Game.Logic.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/SkyRoads.Game.Logic.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic/SkyRoads.Game.Logic.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/SkyRoads.Game.Logic.asmdef.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Visual.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Visual/Behavior.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/Behavior.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Visual/Behavior/UIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/Behavior/UIController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Visual/Behavior/UIController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/Behavior/UIController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Visual/Components.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/Components.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Visual/Components/PlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/Components/PlayerInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Visual/Components/PlayerInput.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/Components/PlayerInput.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Visual/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Visual/GameController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/GameController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Visual/GameModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/GameModule.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Visual/GameModule.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/GameModule.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Visual/SkyRoads.Game.Visual.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/SkyRoads.Game.Visual.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Visual/SkyRoads.Game.Visual.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/SkyRoads.Game.Visual.asmdef.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenny/Jenny.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Jenny/Jenny.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SkyRoads.Entitas/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SkyRoads.Entitas/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SkyRoads.Entitas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SkyRoads.Entitas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomain.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainContext.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Core/Components/IPlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Core/Components/IPlayerInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/GameFeature.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/GameFeature.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/GameListeners.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/GameListeners.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Helpers/ContextHelpers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Helpers/ContextHelpers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Listeners/IGameStateListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Listeners/IGameStateListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/GameStateSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/GameStateSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/InputSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/InputSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerAccelerationSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerAccelerationSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerDirectionSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerDirectionSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/Behavior/UIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/Behavior/UIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/Components/PlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/Components/PlayerInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/GameModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/GameModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Data/Vector3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Data/Vector3.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Space.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Game.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Game/GameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/GameState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Game/GameState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/GameState.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Input.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/Input.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Acceleration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/Acceleration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Acceleration.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/Acceleration.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Death.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/Death.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Death.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/Death.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Direction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/Direction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Direction.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/Direction.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Generated/Game/Components/GameGameStateComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Generated/Game/Components/GameGameStateComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Generated/Game/GameComponentsLookup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Generated/Game/GameComponentsLookup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Generated/Player/Components/PlayerAccelerationComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Generated/Player/Components/PlayerAccelerationComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Generated/Player/Components/PlayerDeathComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Generated/Player/Components/PlayerDeathComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Generated/Player/Components/PlayerDirectionComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Generated/Player/Components/PlayerDirectionComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Generated/Player/PlayerComponentsLookup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Generated/Player/PlayerComponentsLookup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +57,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/GameModule.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EntitasData/Generated/Game/Components/GameGameStateComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/GameFeature.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3BF62979-F4C0-4765-82B8-022112B4AA64/d1/be191af7/InjectAttribute.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -156,6 +80,25 @@
         <option value="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Acceleration.cs" />
         <option value="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Death.cs" />
         <option value="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Direction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainContext.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerDirectionSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerAccelerationSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/InputSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/GameStateSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Listeners/IGameStateListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Helpers/ContextHelpers.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/GameListeners.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/GameFeature.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Core/Components/IPlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/EntitasData/Data/Vector3.cs" />
+        <option value="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/GameState.cs" />
+        <option value="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/Direction.cs" />
+        <option value="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/Death.cs" />
+        <option value="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/Acceleration.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/GameModule.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/Components/PlayerInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/Behavior/UIController.cs" />
       </list>
     </option>
   </component>
@@ -218,7 +161,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610443962377</updated>
-      <workItem from="1610443972158" duration="7574000" />
+      <workItem from="1610443972158" duration="8170000" />
     </task>
     <servers />
   </component>

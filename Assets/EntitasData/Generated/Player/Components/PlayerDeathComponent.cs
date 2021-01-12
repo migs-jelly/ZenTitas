@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using EntitasData.Domains.Game.Player;
+using EntitasData.Domains.Space;
 
 public partial class PlayerEntity {
 

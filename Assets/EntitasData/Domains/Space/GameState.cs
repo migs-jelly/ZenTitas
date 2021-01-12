@@ -1,6 +1,6 @@
 using Entitas;
 
-namespace EntitasData.Domains.Game.Game
+namespace EntitasData.Domains.Space
 {
     [Game]
     public class GameState : IComponent

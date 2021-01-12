@@ -1,4 +1,4 @@
-namespace Domains.Global.SubDomains.Game.Code.Logic.Helpers
+namespace Domains.Global.SubDomains.Space.Code.Logic.Helpers
 {
     public static class ContextHelpers
     {

@@ -1,10 +1,10 @@
 using System;
-using Domains.Global.SubDomains.Game.Code.Core.Components;
-using Domains.Global.SubDomains.Game.Code.Logic.Helpers;
+using Domains.Global.SubDomains.Space.Code.Core.Components;
+using Domains.Global.SubDomains.Space.Code.Logic.Helpers;
 using Entitas;
 using Zenject;
 
-namespace Domains.Global.SubDomains.Game.Code.Logic.Input
+namespace Domains.Global.SubDomains.Space.Code.Logic.Systems
 {
     public class InputSystem : IExecuteSystem
     {

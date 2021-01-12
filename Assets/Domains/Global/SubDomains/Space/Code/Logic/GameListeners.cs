@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using Domains.Global.SubDomains.Game.Code.Logic.Listeners;
+using Domains.Global.SubDomains.Space.Code.Logic.Listeners;
 
-namespace Domains.Global.SubDomains.Game.Code.Logic
+namespace Domains.Global.SubDomains.Space.Code.Logic
 {
     public class GameListeners
     {

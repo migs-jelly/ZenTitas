@@ -5,7 +5,7 @@ using ILogger = Domains.Global.Code.Core.Behavior.ILogger;
 
 namespace Domains.Global.Code.Visual
 {
-    public class GlobalDomain : SceneContext
+    public class GlobalDomainContext : SceneContext
     {
         private List<IGameModule> _modules = new List<IGameModule>();
 
@@ -45,7 +45,7 @@ namespace Domains.Global.Code.Visual
         public void InstallBindings()
         {
             Container.Bind<ILogger>().To<Logger>().AsSingle().NonLazy();
-            Container.Bind<GlobalDomain>().FromInstance(this).AsSingle();
+            Container.Bind<GlobalDomainContext>().FromInstance(this).AsSingle();
         }
     }
 }

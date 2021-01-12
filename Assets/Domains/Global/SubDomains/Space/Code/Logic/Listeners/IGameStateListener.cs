@@ -1,6 +1,6 @@
-using EntitasData.Domains.Game.Game;
+using EntitasData.Domains.Space;
 
-namespace Domains.Global.SubDomains.Game.Code.Logic.Listeners
+namespace Domains.Global.SubDomains.Space.Code.Logic.Listeners
 {
     public interface IGameStateListener
     {

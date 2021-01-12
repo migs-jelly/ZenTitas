@@ -1,4 +1,4 @@
-namespace Domains.Global.Code.Core.Structs
+namespace EntitasData.Data
 {
     public struct Vector3
     {

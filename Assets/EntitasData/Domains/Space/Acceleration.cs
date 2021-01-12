@@ -1,6 +1,6 @@
 using Entitas;
 
-namespace EntitasData.Domains.Game.Player
+namespace EntitasData.Domains.Space
 {
     [Player]
     public class Acceleration : IComponent

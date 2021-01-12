@@ -1,14 +1,12 @@
-using System;
-using System.Collections.Generic;
-using Domains.Global.SubDomains.Game.Code.Logic;
-using Domains.Global.SubDomains.Game.Code.Logic.Helpers;
-using Domains.Global.SubDomains.Game.Code.Logic.Listeners;
-using EntitasData.Domains.Game.Game;
+using Domains.Global.SubDomains.Space.Code.Logic;
+using Domains.Global.SubDomains.Space.Code.Logic.Helpers;
+using Domains.Global.SubDomains.Space.Code.Logic.Listeners;
+using EntitasData.Domains.Space;
 using UnityEngine;
 using Zenject;
 using ILogger = Domains.Global.Code.Core.Behavior.ILogger;
 
-namespace Domains.Global.SubDomains.Game.Code.Visual.Behavior
+namespace Domains.Global.SubDomains.Space.Code.Visual.Behavior
 {
     public class UIController : MonoBehaviour, IGameStateListener
     {

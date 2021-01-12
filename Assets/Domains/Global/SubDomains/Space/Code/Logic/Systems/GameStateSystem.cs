@@ -1,11 +1,10 @@
 using System.Collections.Generic;
 using Domains.Global.Code.Core.Behavior;
-using Domains.Global.SubDomains.Game.Code.Logic.Helpers;
-using Domains.Global.SubDomains.Game.Code.Logic.Listeners;
+using Domains.Global.SubDomains.Space.Code.Logic.Listeners;
 using Entitas;
 using Zenject;
 
-namespace Domains.Global.SubDomains.Game.Code.Logic.Game
+namespace Domains.Global.SubDomains.Space.Code.Logic.Systems
 {
     public class GameStateSystem : ReactiveSystem<GameEntity>
     {

@@ -25,20 +25,20 @@
                 </e>
               </e>
               <e p="Visual" t="Include">
-                <e p="GlobalDomain.cs" t="Include" />
+                <e p="GlobalDomainContext.cs" t="Include" />
                 <e p="GlobalVisualInstaller.cs" t="Include" />
                 <e p="Logger.cs" t="Include" />
                 <e p="SkyRoads.Global.Visual.asmdef" t="Include" />
               </e>
             </e>
             <e p="SubDomains" t="Include">
-              <e p="Game" t="Include">
+              <e p="Space" t="Include">
                 <e p="Code" t="Include">
                   <e p="Core" t="Include">
                     <e p="Components" t="Include">
                       <e p="IPlayerInput.cs" t="Include" />
                     </e>
-                    <e p="SkyRoads.Game.Core.asmdef" t="Include" />
+                    <e p="SkyRoads.Space.Core.asmdef" t="Include" />
                   </e>
                   <e p="Logic" t="Include">
                     <e p="GameFeature.cs" t="Include" />
@@ -49,7 +49,7 @@
                     <e p="Listeners" t="Include">
                       <e p="IGameStateListener.cs" t="Include" />
                     </e>
-                    <e p="SkyRoads.Game.Logic.asmdef" t="Include" />
+                    <e p="SkyRoads.Space.Logic.asmdef" t="Include" />
                     <e p="Systems" t="Include">
                       <e p="GameStateSystem.cs" t="Include" />
                       <e p="InputSystem.cs" t="Include" />
@@ -66,7 +66,7 @@
                     </e>
                     <e p="GameController.cs" t="Include" />
                     <e p="GameModule.cs" t="Include" />
-                    <e p="SkyRoads.Game.Visual.asmdef" t="Include" />
+                    <e p="SkyRoads.Space.Visual.asmdef" t="Include" />
                   </e>
                 </e>
               </e>
@@ -81,15 +81,11 @@
             <e p="Vector3.cs" t="Include" />
           </e>
           <e p="Domains" t="Include">
-            <e p="Game" t="Include">
-              <e p="Game" t="Include">
-                <e p="GameState.cs" t="Include" />
-              </e>
-              <e p="Player" t="Include">
-                <e p="Acceleration.cs" t="Include" />
-                <e p="Death.cs" t="Include" />
-                <e p="Direction.cs" t="Include" />
-              </e>
+            <e p="Space" t="Include">
+              <e p="Acceleration.cs" t="Include" />
+              <e p="Death.cs" t="Include" />
+              <e p="Direction.cs" t="Include" />
+              <e p="GameState.cs" t="Include" />
             </e>
           </e>
           <e p="Generated" t="Include">
@@ -583,12 +579,12 @@
       <e p="Packages" t="ExcludeRecursive" />
       <e p="SkyRoads.Data.csproj" t="IncludeRecursive" />
       <e p="SkyRoads.Entitas.sln" t="IncludeFlat" />
-      <e p="SkyRoads.Game.Core.csproj" t="IncludeRecursive" />
-      <e p="SkyRoads.Game.Logic.csproj" t="IncludeRecursive" />
-      <e p="SkyRoads.Game.Visual.csproj" t="IncludeRecursive" />
       <e p="SkyRoads.Global.Core.csproj" t="IncludeRecursive" />
       <e p="SkyRoads.Global.Logic.csproj" t="IncludeRecursive" />
       <e p="SkyRoads.Global.Visual.csproj" t="IncludeRecursive" />
+      <e p="SkyRoads.Space.Core.csproj" t="IncludeRecursive" />
+      <e p="SkyRoads.Space.Logic.csproj" t="IncludeRecursive" />
+      <e p="SkyRoads.Space.Visual.csproj" t="IncludeRecursive" />
       <e p="Temp/bin" t="ExcludeRecursive" />
       <e p="Zenject-Editor.csproj" t="IncludeRecursive" />
       <e p="Zenject-PoolMonitor-Editor.csproj" t="IncludeRecursive" />

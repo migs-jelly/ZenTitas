@@ -1,9 +1,6 @@
-using Domains.Global.SubDomains.Game.Code.Logic.Game;
-using Domains.Global.SubDomains.Game.Code.Logic.Input;
-using Domains.Global.SubDomains.Game.Code.Logic.Player;
-using Zenject;
+using Domains.Global.SubDomains.Space.Code.Logic.Systems;
 
-namespace Domains.Global.SubDomains.Game.Code.Logic
+namespace Domains.Global.SubDomains.Space.Code.Logic
 {
     public class GameFeature : Feature
     {

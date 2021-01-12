@@ -1,4 +1,4 @@
-namespace Domains.Global.SubDomains.Game.Code.Core.Components
+namespace Domains.Global.SubDomains.Space.Code.Core.Components
 {
     public interface IPlayerInput
     {
