@@ -1,0 +1,16 @@
+{
+    "name": "SkyRoads.Game.Data",
+    "references": [
+        "GUID:2df2d1cb1b51e4a29a310c8f7b2d26e9",
+        "GUID:24979526de2e248328c98b17dfa7f33a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
