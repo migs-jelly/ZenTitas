@@ -11,7 +11,7 @@ namespace Domains.Global.SubDomains.Space.Code.Logic.Systems
         private Contexts _contexts;
         
         [Inject] private ILogger _logger;
-        [Inject] private List<IGameStateListener> _gameStateListeners;
+        [Inject] private GameListeners _listeners;
         
         [Inject]
         public GameStateSystem(Contexts contexts) : base(contexts.game)
@@ -35,7 +35,7 @@ namespace Domains.Global.SubDomains.Space.Code.Logic.Systems
             {
                 var isRunning = entity.gameState.IsRunning;
                 _logger.Log($"Game State changed: {isRunning}");
-                _gameStateListeners.ForEach(l => l.OnGameStateChanged(entity.gameState));
+                _listeners.GameStateListeners.ForEach(l => l.OnGameStateChanged(entity.gameState));
             }
         }
     }

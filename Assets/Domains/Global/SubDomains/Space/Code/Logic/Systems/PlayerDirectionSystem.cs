@@ -11,6 +11,7 @@ namespace Domains.Global.SubDomains.Space.Code.Logic.Systems
         private Contexts _contexts;
         
         [Inject] private ILogger _logger;
+        [Inject] private GameListeners _listeners;
         
         [Inject]
         public PlayerDirectionSystem(Contexts contexts) : base(contexts.player)
@@ -33,6 +34,7 @@ namespace Domains.Global.SubDomains.Space.Code.Logic.Systems
             foreach (var entity in entities)
             {
                 _logger.Log($"Direction changed: {entity.direction.HorizontalAxis}");
+                _listeners.DirectionListeners.ForEach(l => l.OnDirectionChanged(entity.direction.HorizontalAxis));
             }
         }
     }

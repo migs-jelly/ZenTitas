@@ -49,7 +49,6 @@ namespace Domains.Global.Code.Visual
         public void AddModule(IGameModule module)
         {
             _modules.Add(module);
-            module.InstallBindings();
             module.Start();
         }
     }

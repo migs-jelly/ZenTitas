@@ -13,6 +13,7 @@ namespace Domains.Global.SubDomains.Space.Code.Logic
             Add(accelerationSystem);
             Add(directionSystem);
             Add(gameStateSystem);
+            //Cleanup system is missing
         }
     }
 }

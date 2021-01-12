@@ -13,19 +13,13 @@
     <list default="true" id="428627d1-79b5-4e70-ae0c-6ae1b6d9bfc5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SkyRoads.Entitas/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SkyRoads.Entitas/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SkyRoads.Entitas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SkyRoads.Entitas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Behavior/DomainService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Behavior/DomainService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Config/DomainsConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Config/DomainsConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Core/Behavior/IGameModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Code/Core/Behavior/IGameModule.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Interfaces/IDomainService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Interfaces/IDomainService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Config/DomainsConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Config/DomainsConfig.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Scenes/BootstrapScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Scenes/BootstrapScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/MainMenu/Scenes/MenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/MainMenu/Scenes/MenuScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/MainMenu/Scenes/MenuUIScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/MainMenu/Scenes/MenuUIScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerAccelerationSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerAccelerationSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/GameListeners.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/GameListeners.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/GameStateSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/GameStateSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerDirectionSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerDirectionSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/GameModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/GameModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Scenes/SpaceScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Scenes/SpaceScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +38,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Visual/Behavior/UIController.cs" />
-        <option value="$PROJECT_DIR$/Assets/EntitasData/Game/Game/GameState.cs" />
-        <option value="$PROJECT_DIR$/Assets/EntitasData/Game/Player/Acceleration.cs" />
-        <option value="$PROJECT_DIR$/Assets/EntitasData/Game/Player/Death.cs" />
         <option value="$PROJECT_DIR$/Assets/EntitasData/Game/Player/Direction.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Core/Components/IGameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Game/Code/Logic/Helpers/IGameController.cs" />
@@ -60,10 +50,8 @@
         <option value="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Death.cs" />
         <option value="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Direction.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/InputSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/GameStateSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Listeners/IGameStateListener.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Helpers/ContextHelpers.cs" />
-        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/GameListeners.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/GameFeature.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Core/Components/IPlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/EntitasData/Data/Vector3.cs" />
@@ -71,7 +59,6 @@
         <option value="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/Direction.cs" />
         <option value="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/Death.cs" />
         <option value="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/Acceleration.cs" />
-        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/GameModule.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/Components/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/Behavior/UIController.cs" />
@@ -87,14 +74,21 @@
         <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainContext.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Config/DomainConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Helpers/AssetReferences.cs" />
-        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/MainMenu/Code/Visual/StartGameButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Config/DomainsConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Interfaces/IDomainService.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Behavior/DomainService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainController.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerAccelerationSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerDirectionSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Listeners/IDirectionListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/GameListeners.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/MainMenu/Code/Visual/StartGameButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/Behavior/CubeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/GameStateSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerDirectionSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/SpaceInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Core/Behavior/IGameModule.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/GameModule.cs" />
       </list>
     </option>
   </component>
@@ -159,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610443962377</updated>
-      <workItem from="1610443972158" duration="16022000" />
+      <workItem from="1610443972158" duration="17331000" />
     </task>
     <servers />
   </component>
@@ -251,10 +245,10 @@
       <screen x="0" y="23" width="3840" height="977" />
     </state>
     <state width="2260" height="352" key="GridCell.Tab.3.right/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610475536461" />
-    <state x="2499" y="208" key="RiderGenerateDialog" timestamp="1610469196303">
+    <state x="2499" y="208" key="RiderGenerateDialog" timestamp="1610476829161">
       <screen x="0" y="23" width="3840" height="977" />
     </state>
-    <state x="2499" y="208" key="RiderGenerateDialog/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610469196303" />
+    <state x="2499" y="208" key="RiderGenerateDialog/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610476829161" />
     <state x="1714" y="123" width="1312" height="776" key="VCS.FileHistoryDialog" timestamp="1610460025206">
       <screen x="0" y="23" width="3840" height="977" />
     </state>

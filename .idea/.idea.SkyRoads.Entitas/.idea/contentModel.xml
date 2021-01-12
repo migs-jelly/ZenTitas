@@ -70,6 +70,7 @@
                       <e p="ContextHelpers.cs" t="Include" />
                     </e>
                     <e p="Listeners" t="Include">
+                      <e p="IDirectionListener.cs" t="Include" />
                       <e p="IGameStateListener.cs" t="Include" />
                     </e>
                     <e p="SkyRoads.Space.Logic.asmdef" t="Include" />
@@ -82,6 +83,7 @@
                   </e>
                   <e p="Visual" t="Include">
                     <e p="Behavior" t="Include">
+                      <e p="CubeController.cs" t="Include" />
                       <e p="UIController.cs" t="Include" />
                     </e>
                     <e p="Components" t="Include">
@@ -90,6 +92,7 @@
                     <e p="GameController.cs" t="Include" />
                     <e p="GameModule.cs" t="Include" />
                     <e p="SkyRoads.Space.Visual.asmdef" t="Include" />
+                    <e p="SpaceInstaller.cs" t="Include" />
                   </e>
                 </e>
               </e>

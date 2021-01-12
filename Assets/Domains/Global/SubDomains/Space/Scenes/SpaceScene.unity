@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 938392646}
   - component: {fileID: 938392645}
   - component: {fileID: 938392644}
+  - component: {fileID: 938392648}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -214,6 +215,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &938392648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938392643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de0527a940cb4a87a07be4574497f1a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 2
 --- !u!1 &1344045521
 GameObject:
   m_ObjectHideFlags: 0
@@ -224,6 +238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1344045523}
   - component: {fileID: 1344045522}
+  - component: {fileID: 1344045524}
   m_Layer: 0
   m_Name: SceneContext
   m_TagString: Untagged
@@ -244,7 +259,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _scriptableObjectInstallers: []
-  _monoInstallers: []
+  _monoInstallers:
+  - {fileID: 1344045524}
   _installerPrefabs: []
   _autoRun: 1
   OnPreInstall:
@@ -278,6 +294,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1344045524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344045521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f8fc0840ce74247adfa8964e0eff116, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1993569387
 GameObject:
   m_ObjectHideFlags: 0
