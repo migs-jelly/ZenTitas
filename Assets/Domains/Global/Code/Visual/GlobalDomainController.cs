@@ -13,20 +13,15 @@ namespace Domains.Global.Code.Visual
 {
     public class GlobalDomainController : MonoBehaviour
     {
-        [SerializeField] private DomainsConfigReference _domainsConfigReference;
-
         [Inject] private IDomainService _domainService;
         
         private readonly List<IGameModule> _modules = new List<IGameModule>();
 
         #region Lifecycle methods
 
-        private async void Start()
+        public async void Init()
         {
-            var configs = await _domainsConfigReference.LoadAssetAsync().Task;
-            var configReference = configs.GetDomainData("MainMenu").ConfigReference;
-
-            await _domainService.LoadDomain(configReference);
+            await _domainService.LoadDomain("MainMenu");
         }
 
         private void Update()

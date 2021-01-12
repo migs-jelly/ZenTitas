@@ -344,7 +344,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _parentNewObjectsUnderSceneContext: 0
-  _contractNames: []
+  _contractNames:
+  - Global
   _parentContractNames: []
 --- !u!4 &1533360422
 Transform:
@@ -373,6 +374,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _domainController: {fileID: 1597510532}
+  _domainsConfigReference:
+    m_AssetGUID: a5bdddc023c91406d905cda7bb3d345b
+    m_SubObjectName: 
 --- !u!1 &1597510531
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,9 +406,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db2a4dc67b3546c1b258a5616a00953a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _domainsConfigReference:
-    m_AssetGUID: a5bdddc023c91406d905cda7bb3d345b
-    m_SubObjectName: 
 --- !u!4 &1597510533
 Transform:
   m_ObjectHideFlags: 0

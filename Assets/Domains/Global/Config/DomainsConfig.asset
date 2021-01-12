@@ -17,3 +17,7 @@ MonoBehaviour:
     ConfigReference:
       m_AssetGUID: cb0b2e1fc93da4ebe87515dfd67fb520
       m_SubObjectName: 
+  - Name: Space
+    ConfigReference:
+      m_AssetGUID: b6924fa441fd7489db3969045b55aaac
+      m_SubObjectName: 

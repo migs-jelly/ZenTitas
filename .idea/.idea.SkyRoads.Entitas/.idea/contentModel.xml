@@ -47,6 +47,14 @@
               </e>
             </e>
             <e p="SubDomains" t="Include">
+              <e p="MainMenu" t="Include">
+                <e p="Code" t="Include">
+                  <e p="Visual" t="Include">
+                    <e p="SkyRoads.MainMenu.Visual.asmdef" t="Include" />
+                    <e p="StartGameButton.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
               <e p="Space" t="Include">
                 <e p="Code" t="Include">
                   <e p="Core" t="Include">
@@ -594,6 +602,7 @@
       <e p="SkyRoads.Global.Core.csproj" t="IncludeRecursive" />
       <e p="SkyRoads.Global.Logic.csproj" t="IncludeRecursive" />
       <e p="SkyRoads.Global.Visual.csproj" t="IncludeRecursive" />
+      <e p="SkyRoads.MainMenu.Visual.csproj" t="IncludeRecursive" />
       <e p="SkyRoads.Space.Core.csproj" t="IncludeRecursive" />
       <e p="SkyRoads.Space.Logic.csproj" t="IncludeRecursive" />
       <e p="SkyRoads.Space.Visual.csproj" t="IncludeRecursive" />

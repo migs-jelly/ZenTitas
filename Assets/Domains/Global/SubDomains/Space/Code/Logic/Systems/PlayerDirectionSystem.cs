@@ -25,7 +25,7 @@ namespace Domains.Global.SubDomains.Space.Code.Logic.Systems
 
         protected override bool Filter(PlayerEntity entity)
         {
-            return entity.hasDirection && _contexts.game.IsGameRunning();
+            return entity.hasDirection;// && _contexts.game.IsGameRunning();
         }
 
         protected override void Execute(List<PlayerEntity> entities)

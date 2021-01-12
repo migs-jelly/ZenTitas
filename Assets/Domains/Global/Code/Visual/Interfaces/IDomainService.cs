@@ -7,6 +7,7 @@ namespace Domains.Global.Code.Visual.Interfaces
 {
     public interface IDomainService
     {
-        Task LoadDomain(DomainConfigReference domainConfigReference);
+        Task LoadDomain(string domainName);
+        Task LoadDomain(DomainConfig domainConfig);
     }
 }

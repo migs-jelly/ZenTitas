@@ -12,75 +12,20 @@
   <component name="ChangeListManager">
     <list default="true" id="428627d1-79b5-4e70-ae0c-6ae1b6d9bfc5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SkyRoads.Entitas/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SkyRoads.Entitas/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SkyRoads.Entitas/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SkyRoads.Entitas/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SkyRoads.Entitas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SkyRoads.Entitas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Config.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Config/GameConfig.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Config/GameConfig.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainContext.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/SkyRoads.Global.Visual.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/SkyRoads.Global.Visual.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Scenes/MainScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Scenes/MainScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/CHANGELOG.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Entitas.Migration.Unity.Editor.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Entitas.Migration.Unity.Editor.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Entitas.Migration.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Entitas.Migration.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Entitas.Unity.Editor.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Entitas.Unity.Editor.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Entitas.VisualDebugging.Unity.Editor.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Entitas.VisualDebugging.Unity.Editor.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasContextErrorHierarchyIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasContextErrorHierarchyIcon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasContextHierarchyIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasContextHierarchyIcon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasEntityErrorHierarchyIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasEntityErrorHierarchyIcon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasEntityHierarchyIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasEntityHierarchyIcon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasEntityLinkHierarchyIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasEntityLinkHierarchyIcon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasEntityLinkWarnHierarchyIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasEntityLinkWarnHierarchyIcon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasHeader.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasHeader.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasSystemsHierarchyIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasSystemsHierarchyIcon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasSystemsWarnHierarchyIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasSystemsWarnHierarchyIcon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Plugins.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Plugins/Entitas.CodeGeneration.Plugins.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Plugins/Entitas.CodeGeneration.Plugins.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Plugins/Entitas.VisualDebugging.CodeGeneration.Plugins.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Plugins/Entitas.VisualDebugging.CodeGeneration.Plugins.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Entitas.CodeGeneration.Attributes.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Entitas.CodeGeneration.Attributes.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Entitas.Unity.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Entitas.Unity.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Entitas.VisualDebugging.Unity.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Entitas.VisualDebugging.Unity.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Entitas.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Entitas.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Entitas.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Entitas.xml.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/EntitasUpgradeGuide.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/EntitasUpgradeGuide.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Entitas/README.md.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/Game.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/Input.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Behavior/DomainService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Behavior/DomainService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Config/DomainsConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Config/DomainsConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Interfaces/IDomainService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Interfaces/IDomainService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Config/DomainsConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Config/DomainsConfig.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Scenes/BootstrapScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Scenes/BootstrapScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/MainMenu/Scenes/MenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/MainMenu/Scenes/MenuScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/MainMenu/Scenes/MenuUIScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/MainMenu/Scenes/MenuUIScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerAccelerationSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerAccelerationSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerDirectionSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerDirectionSystem.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,8 +59,6 @@
         <option value="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Acceleration.cs" />
         <option value="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Death.cs" />
         <option value="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Direction.cs" />
-        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerDirectionSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerAccelerationSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/InputSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/GameStateSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Listeners/IGameStateListener.cs" />
@@ -135,19 +78,23 @@
         <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Config/SceneConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Config/ScenesConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Config/DomainConfigs.cs" />
-        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Config/DomainConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Behavior/SceneLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Core/Behavior/ISceneLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Interfaces/ISceneService.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Helpers/AsyncHelper.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Behavior/SceneService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Interfaces/IDomainService.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Helpers/AsyncHelpers.cs" />
-        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Behavior/DomainService.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainContext.cs" />
-        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Config/DomainConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Helpers/AssetReferences.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/MainMenu/Code/Visual/StartGameButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Config/DomainsConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Interfaces/IDomainService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Behavior/DomainService.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerAccelerationSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerDirectionSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainInstaller.cs" />
       </list>
     </option>
   </component>
@@ -162,12 +109,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3499327" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.3001346" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Executable.Generate Code">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Generate Code" type="RunExe" factoryName=".NET Executable">
       <option name="EXE_PATH" value="$PROJECT_DIR$/Jenny/Jenny.exe" />
       <option name="PROGRAM_PARAMETERS" value="gen" />
@@ -210,7 +159,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610443962377</updated>
-      <workItem from="1610443972158" duration="13030000" />
+      <workItem from="1610443972158" duration="16022000" />
     </task>
     <servers />
   </component>
@@ -238,22 +187,70 @@
       <screen x="0" y="23" width="3840" height="977" />
     </state>
     <state x="1490" y="173" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610444041288" />
-    <state width="1470" height="263" key="GridCell.Tab.0.bottom" timestamp="1610463292454">
+    <state width="2260" height="352" key="GridCell.Tab.0.bottom" timestamp="1610475536459">
       <screen x="0" y="23" width="3840" height="977" />
     </state>
-    <state width="1470" height="263" key="GridCell.Tab.0.bottom/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610463292454" />
-    <state width="1470" height="263" key="GridCell.Tab.0.center" timestamp="1610463292453">
+    <state width="2260" height="352" key="GridCell.Tab.0.bottom/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610475536459" />
+    <state width="2260" height="352" key="GridCell.Tab.0.center" timestamp="1610475536458">
       <screen x="0" y="23" width="3840" height="977" />
     </state>
-    <state width="1470" height="263" key="GridCell.Tab.0.center/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610463292453" />
-    <state width="1470" height="263" key="GridCell.Tab.0.left" timestamp="1610463292453">
+    <state width="2260" height="352" key="GridCell.Tab.0.center/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610475536458" />
+    <state width="2260" height="352" key="GridCell.Tab.0.left" timestamp="1610475536458">
       <screen x="0" y="23" width="3840" height="977" />
     </state>
-    <state width="1470" height="263" key="GridCell.Tab.0.left/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610463292453" />
-    <state width="1470" height="263" key="GridCell.Tab.0.right" timestamp="1610463292454">
+    <state width="2260" height="352" key="GridCell.Tab.0.left/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610475536458" />
+    <state width="2260" height="352" key="GridCell.Tab.0.right" timestamp="1610475536459">
       <screen x="0" y="23" width="3840" height="977" />
     </state>
-    <state width="1470" height="263" key="GridCell.Tab.0.right/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610463292454" />
+    <state width="2260" height="352" key="GridCell.Tab.0.right/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610475536459" />
+    <state width="2260" height="352" key="GridCell.Tab.1.bottom" timestamp="1610475536459">
+      <screen x="0" y="23" width="3840" height="977" />
+    </state>
+    <state width="2260" height="352" key="GridCell.Tab.1.bottom/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610475536459" />
+    <state width="2260" height="352" key="GridCell.Tab.1.center" timestamp="1610475536459">
+      <screen x="0" y="23" width="3840" height="977" />
+    </state>
+    <state width="2260" height="352" key="GridCell.Tab.1.center/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610475536459" />
+    <state width="2260" height="352" key="GridCell.Tab.1.left" timestamp="1610475536459">
+      <screen x="0" y="23" width="3840" height="977" />
+    </state>
+    <state width="2260" height="352" key="GridCell.Tab.1.left/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610475536459" />
+    <state width="2260" height="352" key="GridCell.Tab.1.right" timestamp="1610475536459">
+      <screen x="0" y="23" width="3840" height="977" />
+    </state>
+    <state width="2260" height="352" key="GridCell.Tab.1.right/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610475536459" />
+    <state width="2260" height="352" key="GridCell.Tab.2.bottom" timestamp="1610475536460">
+      <screen x="0" y="23" width="3840" height="977" />
+    </state>
+    <state width="2260" height="352" key="GridCell.Tab.2.bottom/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610475536460" />
+    <state width="2260" height="352" key="GridCell.Tab.2.center" timestamp="1610475536460">
+      <screen x="0" y="23" width="3840" height="977" />
+    </state>
+    <state width="2260" height="352" key="GridCell.Tab.2.center/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610475536460" />
+    <state width="2260" height="352" key="GridCell.Tab.2.left" timestamp="1610475536460">
+      <screen x="0" y="23" width="3840" height="977" />
+    </state>
+    <state width="2260" height="352" key="GridCell.Tab.2.left/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610475536460" />
+    <state width="2260" height="352" key="GridCell.Tab.2.right" timestamp="1610475536460">
+      <screen x="0" y="23" width="3840" height="977" />
+    </state>
+    <state width="2260" height="352" key="GridCell.Tab.2.right/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610475536460" />
+    <state width="2260" height="352" key="GridCell.Tab.3.bottom" timestamp="1610475536461">
+      <screen x="0" y="23" width="3840" height="977" />
+    </state>
+    <state width="2260" height="352" key="GridCell.Tab.3.bottom/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610475536461" />
+    <state width="2260" height="352" key="GridCell.Tab.3.center" timestamp="1610475536461">
+      <screen x="0" y="23" width="3840" height="977" />
+    </state>
+    <state width="2260" height="352" key="GridCell.Tab.3.center/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610475536461" />
+    <state width="2260" height="352" key="GridCell.Tab.3.left" timestamp="1610475536461">
+      <screen x="0" y="23" width="3840" height="977" />
+    </state>
+    <state width="2260" height="352" key="GridCell.Tab.3.left/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610475536461" />
+    <state width="2260" height="352" key="GridCell.Tab.3.right" timestamp="1610475536461">
+      <screen x="0" y="23" width="3840" height="977" />
+    </state>
+    <state width="2260" height="352" key="GridCell.Tab.3.right/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610475536461" />
     <state x="2499" y="208" key="RiderGenerateDialog" timestamp="1610469196303">
       <screen x="0" y="23" width="3840" height="977" />
     </state>
@@ -262,9 +259,54 @@
       <screen x="0" y="23" width="3840" height="977" />
     </state>
     <state x="1714" y="123" width="1312" height="776" key="VCS.FileHistoryDialog/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610460025206" />
-    <state x="201" y="23" width="1336" height="976" key="dock-window-1" timestamp="1610471579062">
+    <state x="201" y="23" width="1336" height="976" key="dock-window-1" timestamp="1610472945963">
       <screen x="0" y="23" width="3840" height="977" />
     </state>
-    <state x="201" y="23" width="1336" height="976" key="dock-window-1/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610471579062" />
+    <state x="201" y="23" width="1336" height="976" key="dock-window-1/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610472945963" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainInstaller.cs</url>
+          <line>18</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainInstaller.cs" initialLine="18">
+            <startOffsets>
+              <option value="606" />
+            </startOffsets>
+            <endOffsets>
+              <option value="666" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainInstaller.cs</url>
+          <line>30</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainInstaller.cs" initialLine="30">
+            <startOffsets>
+              <option value="1248" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1332" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainInstaller.cs</url>
+          <line>32</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainInstaller.cs" initialLine="32">
+            <startOffsets>
+              <option value="1358" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1383" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

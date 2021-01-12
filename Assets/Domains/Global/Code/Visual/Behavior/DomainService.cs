@@ -9,18 +9,26 @@ using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.ResourceProviders;
 using UnityEngine.SceneManagement;
+using Zenject;
 
 namespace Domains.Global.Code.Visual.Behavior
 {
     public class DomainService : IDomainService
     {
+        [Inject] private DiContainer _container;
+        
         private readonly ConcurrentStack<SceneInstance> _newDomainScenes = new ConcurrentStack<SceneInstance>();
         private readonly ConcurrentStack<SceneInstance> _loadedDomainScenes = new ConcurrentStack<SceneInstance>();
-        
 
         private bool _isLoading;
-        
-        public async Task LoadDomain(DomainConfigReference domainConfigReference)
+
+        public async Task LoadDomain(string domainName)
+        {
+            var config = _container.ResolveId<DomainConfig>(domainName);
+            await LoadDomain(config);
+        }
+
+        public async Task LoadDomain(DomainConfig config)
         {
             if (_isLoading)
             {
@@ -28,8 +36,6 @@ namespace Domains.Global.Code.Visual.Behavior
             }
 
             _isLoading = true;
-            
-            var config = await domainConfigReference.LoadAssetAsync().Task;
 
             var loadTasks = new List<Task>
             {
