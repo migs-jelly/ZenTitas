@@ -25,8 +25,23 @@
                 </e>
               </e>
               <e p="Visual" t="Include">
-                <e p="GlobalDomainContext.cs" t="Include" />
+                <e p="Behavior" t="Include">
+                  <e p="DomainService.cs" t="Include" />
+                </e>
+                <e p="Config" t="Include">
+                  <e p="DomainConfig.cs" t="Include" />
+                  <e p="DomainsConfig.cs" t="Include" />
+                </e>
+                <e p="GlobalDomainController.cs" t="Include" />
+                <e p="GlobalDomainInstaller.cs" t="Include" />
                 <e p="GlobalVisualInstaller.cs" t="Include" />
+                <e p="Helpers" t="Include">
+                  <e p="AssetReferences.cs" t="Include" />
+                  <e p="AsyncHelpers.cs" t="Include" />
+                </e>
+                <e p="Interfaces" t="Include">
+                  <e p="IDomainService.cs" t="Include" />
+                </e>
                 <e p="Logger.cs" t="Include" />
                 <e p="SkyRoads.Global.Visual.asmdef" t="Include" />
               </e>
@@ -72,9 +87,6 @@
               </e>
             </e>
           </e>
-        </e>
-        <e p="Entitas" t="Include">
-          <e p="Entitas.xml" t="Include" />
         </e>
         <e p="EntitasData" t="Include">
           <e p="Data" t="Include">

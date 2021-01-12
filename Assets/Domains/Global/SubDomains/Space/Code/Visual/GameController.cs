@@ -7,14 +7,14 @@ namespace Domains.Global.SubDomains.Space.Code.Visual
     public class GameController : MonoBehaviour
     {
         private GameModule _module;
-        private GlobalDomainContext _globalDomainContext;
+        private GlobalDomainController _globalDomainController;
         
         [Inject] private DiContainer _container;
 
         private void Awake()
         {
             InstallBindings();
-            _globalDomainContext.AddModule(_module);
+            _globalDomainController.AddModule(_module);
         }
 
         public void InstallBindings()
@@ -22,7 +22,7 @@ namespace Domains.Global.SubDomains.Space.Code.Visual
             _container.Bind<GameModule>().AsSingle().NonLazy();
 
             _module = _container.Resolve<GameModule>();
-            _globalDomainContext = _container.Resolve<GlobalDomainContext>();
+            _globalDomainController = _container.Resolve<GlobalDomainController>();
         }
     }
 }

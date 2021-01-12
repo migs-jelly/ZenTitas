@@ -12,41 +12,75 @@
   <component name="ChangeListManager">
     <list default="true" id="428627d1-79b5-4e70-ae0c-6ae1b6d9bfc5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SkyRoads.Entitas/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SkyRoads.Entitas/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SkyRoads.Entitas/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SkyRoads.Entitas/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SkyRoads.Entitas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SkyRoads.Entitas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomain.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainContext.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Core/Components/IPlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Core/Components/IPlayerInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/GameFeature.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/GameFeature.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/GameListeners.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/GameListeners.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Helpers/ContextHelpers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Helpers/ContextHelpers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Listeners/IGameStateListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Listeners/IGameStateListener.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/GameStateSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/GameStateSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/InputSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/InputSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerAccelerationSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerAccelerationSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerDirectionSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerDirectionSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/Behavior/UIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/Behavior/UIController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/Components/PlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/Components/PlayerInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Config.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Config/GameConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Config/GameConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainContext.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/SkyRoads.Global.Visual.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/SkyRoads.Global.Visual.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Scenes/MainScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/Scenes/MainScene.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/GameController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/GameModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/GameModule.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Data/Vector3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Data/Vector3.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Space.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Game.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Game/GameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/GameState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Game/GameState.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/GameState.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Input.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/Input.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Acceleration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/Acceleration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Acceleration.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/Acceleration.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Death.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/Death.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Death.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/Death.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Direction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/Direction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Direction.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/Direction.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Generated/Game/Components/GameGameStateComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Generated/Game/Components/GameGameStateComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Generated/Game/GameComponentsLookup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Generated/Game/GameComponentsLookup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Generated/Player/Components/PlayerAccelerationComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Generated/Player/Components/PlayerAccelerationComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Generated/Player/Components/PlayerDeathComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Generated/Player/Components/PlayerDeathComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Generated/Player/Components/PlayerDirectionComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Generated/Player/Components/PlayerDirectionComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Generated/Player/PlayerComponentsLookup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EntitasData/Generated/Player/PlayerComponentsLookup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/CHANGELOG.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Entitas.Migration.Unity.Editor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Entitas.Migration.Unity.Editor.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Entitas.Migration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Entitas.Migration.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Entitas.Unity.Editor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Entitas.Unity.Editor.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Entitas.VisualDebugging.Unity.Editor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Entitas.VisualDebugging.Unity.Editor.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasContextErrorHierarchyIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasContextErrorHierarchyIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasContextHierarchyIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasContextHierarchyIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasEntityErrorHierarchyIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasEntityErrorHierarchyIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasEntityHierarchyIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasEntityHierarchyIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasEntityLinkHierarchyIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasEntityLinkHierarchyIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasEntityLinkWarnHierarchyIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasEntityLinkWarnHierarchyIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasHeader.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasHeader.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasSystemsHierarchyIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasSystemsHierarchyIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasSystemsWarnHierarchyIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Images/EntitasSystemsWarnHierarchyIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Plugins/Entitas.CodeGeneration.Plugins.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Plugins/Entitas.CodeGeneration.Plugins.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Plugins/Entitas.VisualDebugging.CodeGeneration.Plugins.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Editor/Plugins/Entitas.VisualDebugging.CodeGeneration.Plugins.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Entitas.CodeGeneration.Attributes.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Entitas.CodeGeneration.Attributes.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Entitas.Unity.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Entitas.Unity.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Entitas.VisualDebugging.Unity.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Entitas.VisualDebugging.Unity.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Entitas.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Entitas.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Entitas.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/Entitas.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/EntitasUpgradeGuide.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/EntitasUpgradeGuide.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Entitas/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/Game.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EntitasData/Domains/Space/Input.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +114,6 @@
         <option value="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Acceleration.cs" />
         <option value="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Death.cs" />
         <option value="$PROJECT_DIR$/Assets/EntitasData/Domains/Game/Player/Direction.cs" />
-        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainContext.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerDirectionSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/PlayerAccelerationSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Logic/Systems/InputSystem.cs" />
@@ -99,6 +132,22 @@
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/Components/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Domains/Global/SubDomains/Space/Code/Visual/Behavior/UIController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Config/SceneConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Config/ScenesConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Config/DomainConfigs.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Config/DomainConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Behavior/SceneLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Core/Behavior/ISceneLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Interfaces/ISceneService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Helpers/AsyncHelper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Behavior/SceneService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Interfaces/IDomainService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Helpers/AsyncHelpers.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Behavior/DomainService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainContext.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/Config/DomainsConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Domains/Global/Code/Visual/GlobalDomainController.cs" />
       </list>
     </option>
   </component>
@@ -161,7 +210,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610443962377</updated>
-      <workItem from="1610443972158" duration="8170000" />
+      <workItem from="1610443972158" duration="13030000" />
     </task>
     <servers />
   </component>
@@ -205,9 +254,17 @@
       <screen x="0" y="23" width="3840" height="977" />
     </state>
     <state width="1470" height="263" key="GridCell.Tab.0.right/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610463292454" />
+    <state x="2499" y="208" key="RiderGenerateDialog" timestamp="1610469196303">
+      <screen x="0" y="23" width="3840" height="977" />
+    </state>
+    <state x="2499" y="208" key="RiderGenerateDialog/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610469196303" />
     <state x="1714" y="123" width="1312" height="776" key="VCS.FileHistoryDialog" timestamp="1610460025206">
       <screen x="0" y="23" width="3840" height="977" />
     </state>
     <state x="1714" y="123" width="1312" height="776" key="VCS.FileHistoryDialog/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610460025206" />
+    <state x="201" y="23" width="1336" height="976" key="dock-window-1" timestamp="1610471579062">
+      <screen x="0" y="23" width="3840" height="977" />
+    </state>
+    <state x="201" y="23" width="1336" height="976" key="dock-window-1/0.23.3840.977/-1536.23.1536.937@0.23.3840.977" timestamp="1610471579062" />
   </component>
 </project>
