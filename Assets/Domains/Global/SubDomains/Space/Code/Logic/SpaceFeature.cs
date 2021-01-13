@@ -2,9 +2,9 @@ using Domains.Global.SubDomains.Space.Code.Logic.Systems;
 
 namespace Domains.Global.SubDomains.Space.Code.Logic
 {
-    public class GameFeature : Feature
+    public class SpaceFeature : Feature
     {
-        public GameFeature(InputSystem inputSystem, 
+        public SpaceFeature(InputSystem inputSystem, 
             PlayerAccelerationSystem accelerationSystem,
             PlayerDirectionSystem directionSystem, 
             GameStateSystem gameStateSystem,

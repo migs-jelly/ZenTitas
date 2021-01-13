@@ -14,7 +14,7 @@ namespace Domains.Global.SubDomains.Space.Code.Visual
     public class SpaceModule : IGameModule, IGameStateListener
     {
         [Inject] private DiContainer _container;
-        [Inject] private GameFeature _feature;
+        [Inject] private SpaceFeature _feature;
         [Inject] private Contexts _contexts;
         [Inject] private IDomainService _domainService;
         [Inject] private GameListeners _gameListeners;

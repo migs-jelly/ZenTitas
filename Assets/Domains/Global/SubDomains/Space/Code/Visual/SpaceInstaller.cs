@@ -26,7 +26,7 @@ namespace Domains.Global.SubDomains.Space.Code.Visual
             Container.Bind<CleanupSystem>().AsSingle().NonLazy();
             
             //Feature
-            Container.Bind<GameFeature>().AsSingle().NonLazy();
+            Container.Bind<SpaceFeature>().AsSingle().NonLazy();
         }
     }
 }
