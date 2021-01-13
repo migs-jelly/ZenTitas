@@ -1,3 +1,4 @@
+using Domains.Global.Code.Visual.Base;
 using Domains.Global.SubDomains.Space.Code.Core.Components;
 using Domains.Global.SubDomains.Space.Code.Logic;
 using Domains.Global.SubDomains.Space.Code.Logic.Systems;
@@ -6,9 +7,9 @@ using Zenject;
 
 namespace Domains.Global.SubDomains.Space.Code.Visual
 {
-    public class SpaceInstaller : MonoInstaller
+    public class SpaceInstaller : BaseDomainInstaller<SpaceModule>
     {
-        public override void InstallBindings()
+        protected override void Install()
         {
             //General
             Container.Bind<Contexts>().FromInstance(Contexts.sharedInstance).NonLazy();
@@ -22,6 +23,7 @@ namespace Domains.Global.SubDomains.Space.Code.Visual
             Container.Bind<PlayerAccelerationSystem>().AsSingle().NonLazy();
             Container.Bind<PlayerDirectionSystem>().AsSingle().NonLazy();
             Container.Bind<GameStateSystem>().AsSingle().NonLazy();
+            Container.Bind<CleanupSystem>().AsSingle().NonLazy();
             
             //Feature
             Container.Bind<GameFeature>().AsSingle().NonLazy();

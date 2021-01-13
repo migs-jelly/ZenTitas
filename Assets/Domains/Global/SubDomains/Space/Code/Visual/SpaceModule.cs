@@ -11,7 +11,7 @@ using Zenject;
 
 namespace Domains.Global.SubDomains.Space.Code.Visual
 {
-    public class GameModule : IGameModule, IGameStateListener
+    public class SpaceModule : IGameModule, IGameStateListener
     {
         [Inject] private DiContainer _container;
         [Inject] private GameFeature _feature;

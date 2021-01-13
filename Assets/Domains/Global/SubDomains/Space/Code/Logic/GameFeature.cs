@@ -7,13 +7,14 @@ namespace Domains.Global.SubDomains.Space.Code.Logic
         public GameFeature(InputSystem inputSystem, 
             PlayerAccelerationSystem accelerationSystem,
             PlayerDirectionSystem directionSystem, 
-            GameStateSystem gameStateSystem)
+            GameStateSystem gameStateSystem,
+            CleanupSystem cleanupSystem)
         {
             Add(inputSystem);
             Add(accelerationSystem);
             Add(directionSystem);
             Add(gameStateSystem);
-            //Cleanup system is missing
+            Add(cleanupSystem);
         }
     }
 }
