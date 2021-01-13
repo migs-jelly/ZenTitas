@@ -67,3 +67,6 @@ crashlytics-build.properties
 *.userproperties
 [Jj]enny/*
 ![Jj]enny/Jenny.properties
+[Pp]ackages/*
+![Pp]ackages/manifest.json
+![Pp]ackages/packages-lock.json
