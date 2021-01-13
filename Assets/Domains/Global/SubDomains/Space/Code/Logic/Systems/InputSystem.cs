@@ -1,41 +1,48 @@
 using System;
-using Domains.Global.SubDomains.Space.Code.Core.Components;
+using Domains.Global.Code.Logic.Base;
+using Domains.Global.SubDomains.Space.Code.Core.Services;
 using Domains.Global.SubDomains.Space.Code.Logic.Helpers;
 using Entitas;
 using Zenject;
 
 namespace Domains.Global.SubDomains.Space.Code.Logic.Systems
 {
-    public class InputSystem : IExecuteSystem
+    public class InputSystem : IJellyExecuteSystem
     {
         private const float AXIS_CHANGE_TOLERANCE = 0.01f;
         
-        [Inject] private IPlayerInput _playerInput;
-        [Inject] private Contexts _contexts;
+        private IPlayerInputService _playerInputService;
+        private Contexts _contexts;
 
         private float _previousHorizontalAxis = 0f;
         private bool _previousIsAccelerated = false;
         
+        public void ResolveDependencies(DiContainer container)
+        {
+            _playerInputService = container.Resolve<IPlayerInputService>();
+            _contexts = container.Resolve<Contexts>();
+        }
+        
         public void Execute()
         {
             //Direction
-            if (Math.Abs(_previousHorizontalAxis - _playerInput.HorizontalAxis) > AXIS_CHANGE_TOLERANCE)
+            if (Math.Abs(_previousHorizontalAxis - _playerInputService.HorizontalAxis) > AXIS_CHANGE_TOLERANCE)
             {
-                _previousHorizontalAxis = _playerInput.HorizontalAxis;
+                _previousHorizontalAxis = _playerInputService.HorizontalAxis;
                 var entity = GetOrCreatePlayerEntity(PlayerMatcher.Direction);
                 entity.ReplaceDirection(_previousHorizontalAxis);
             }
             
             //Acceleration
-            if (_previousIsAccelerated != _playerInput.IsAccelerating)
+            if (_previousIsAccelerated != _playerInputService.IsAccelerating)
             {
-                _previousIsAccelerated = _playerInput.IsAccelerating;
+                _previousIsAccelerated = _playerInputService.IsAccelerating;
                 var entity = GetOrCreatePlayerEntity(PlayerMatcher.Acceleration);
                 entity.ReplaceAcceleration(_previousIsAccelerated);
             }
 
             //General
-            if (_contexts.game.IsGameRunning() && _playerInput.IsPausePressed)
+            if (_contexts.game.IsGameRunning() && _playerInputService.IsPausePressed)
             {
                 _contexts.game.PauseGame();
             }

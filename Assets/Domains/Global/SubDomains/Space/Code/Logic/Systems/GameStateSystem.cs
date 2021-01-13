@@ -1,22 +1,28 @@
 using System.Collections.Generic;
 using Domains.Global.Code.Core.Behavior;
+using Domains.Global.Code.Logic.Base;
 using Domains.Global.SubDomains.Space.Code.Logic.Listeners;
 using Entitas;
 using Zenject;
 
 namespace Domains.Global.SubDomains.Space.Code.Logic.Systems
 {
-    public class GameStateSystem : ReactiveSystem<GameEntity>
+    public class GameStateSystem : JellyReactiveSystem<GameEntity>
     {
         private Contexts _contexts;
         
-        [Inject] private ILogger _logger;
-        [Inject] private GameListeners _listeners;
+        private ILogger _logger;
+        private GameListeners _listeners;
         
-        [Inject]
         public GameStateSystem(Contexts contexts) : base(contexts.game)
         {
             _contexts = contexts;
+        }
+        
+        public override void ResolveDependencies(DiContainer container)
+        {
+            _logger = container.Resolve<ILogger>();
+            _listeners = container.Resolve<GameListeners>();
         }
 
         protected override ICollector<GameEntity> GetTrigger(IContext<GameEntity> context)

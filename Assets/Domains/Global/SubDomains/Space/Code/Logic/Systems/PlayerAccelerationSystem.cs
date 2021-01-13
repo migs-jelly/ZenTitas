@@ -1,21 +1,25 @@
 using System.Collections.Generic;
 using Domains.Global.Code.Core.Behavior;
+using Domains.Global.Code.Logic.Base;
 using Domains.Global.SubDomains.Space.Code.Logic.Helpers;
 using Entitas;
 using Zenject;
 
 namespace Domains.Global.SubDomains.Space.Code.Logic.Systems
 {
-    public class PlayerAccelerationSystem : ReactiveSystem<PlayerEntity>
+    public class PlayerAccelerationSystem : JellyReactiveSystem<PlayerEntity>
     {
         private Contexts _contexts;
+        private ILogger _logger;
         
-        [Inject] private ILogger _logger;
-        
-        [Inject]
         public PlayerAccelerationSystem(Contexts contexts) : base(contexts.player)
         {
             _contexts = contexts;
+        }
+        
+        public override void ResolveDependencies(DiContainer container)
+        {
+            _logger = container.Resolve<ILogger>();
         }
 
         protected override ICollector<PlayerEntity> GetTrigger(IContext<PlayerEntity> context)

@@ -1,15 +1,24 @@
+using Domains.Global.Code.Logic.Base;
 using Entitas;
 using Zenject;
 
 namespace Domains.Global.SubDomains.Space.Code.Logic.Systems
 {
-    public class CleanupSystem : ICleanupSystem
+    public class TeardownSystem : IJellyTeardownSystem
     {
-        [Inject] private Contexts _contexts;
-        [Inject] private DiContainer _container;
-        
-        public void Cleanup()
+        private Contexts _contexts;
+        private DiContainer _container;
+
+        public void ResolveDependencies(DiContainer container)
         {
+            _contexts = container.Resolve<Contexts>();
+            _container = container;
+        }
+        
+        public void TearDown()
+        {
+            //This is resolved at the time of teardown, to prevent
+            //circular dependencies at startup
             var feature = _container.Resolve<SpaceFeature>();
             
             feature.DeactivateReactiveSystems();
@@ -23,6 +32,8 @@ namespace Domains.Global.SubDomains.Space.Code.Logic.Systems
                 playerEntity.Destroy();
             }
             
+            feature.ClearReactiveSystems();
+            feature.ActivateReactiveSystems();
         }
     }
 }

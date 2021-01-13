@@ -2,6 +2,7 @@
     "name": "SkyRoads.Global.Logic",
     "references": [
         "GUID:24979526de2e248328c98b17dfa7f33a",
+        "GUID:700ec9298586242a2bd83592261c4025",
         "GUID:0d8beb7f090555447a6cf5ce9e54dbb4"
     ],
     "includePlatforms": [],

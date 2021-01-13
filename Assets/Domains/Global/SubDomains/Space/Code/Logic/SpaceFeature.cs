@@ -1,20 +1,18 @@
+using Domains.Global.Code.Logic.Base;
 using Domains.Global.SubDomains.Space.Code.Logic.Systems;
+using Zenject;
 
 namespace Domains.Global.SubDomains.Space.Code.Logic
 {
-    public class SpaceFeature : Feature
+    public class SpaceFeature : BaseFeature
     {
-        public SpaceFeature(InputSystem inputSystem, 
-            PlayerAccelerationSystem accelerationSystem,
-            PlayerDirectionSystem directionSystem, 
-            GameStateSystem gameStateSystem,
-            CleanupSystem cleanupSystem)
+        public override void Setup(DiContainer container)
         {
-            Add(inputSystem);
-            Add(accelerationSystem);
-            Add(directionSystem);
-            Add(gameStateSystem);
-            Add(cleanupSystem);
+            Add<InputSystem>(container);
+            Add<PlayerAccelerationSystem>(container);
+            Add<PlayerDirectionSystem>(container);
+            Add<GameStateSystem>(container);
+            Add<TeardownSystem>(container);
         }
     }
 }

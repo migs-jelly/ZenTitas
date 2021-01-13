@@ -1,32 +1,35 @@
+using Domains.Global.Code.Visual;
 using Domains.Global.Code.Visual.Base;
-using Domains.Global.SubDomains.Space.Code.Core.Components;
+using Domains.Global.SubDomains.Space.Code.Core.Services;
 using Domains.Global.SubDomains.Space.Code.Logic;
 using Domains.Global.SubDomains.Space.Code.Logic.Systems;
 using Domains.Global.SubDomains.Space.Code.Visual.Components;
+using UnityEngine;
 using Zenject;
 
 namespace Domains.Global.SubDomains.Space.Code.Visual
 {
-    public class SpaceInstaller : BaseDomainInstaller<SpaceModule>
+    public class SpaceInstaller : BaseDomainInstaller<SpaceModule, SpaceFeature>
     {
         protected override void Install()
         {
             //General
-            Container.Bind<Contexts>().FromInstance(Contexts.sharedInstance).NonLazy();
-            Container.Bind<IPlayerInput>().To<PlayerInput>().AsSingle().NonLazy();
+            InstallService<IPlayerInputService, PlayerInputService>();
             
             //Listeners
-            Container.Bind<GameListeners>().AsSingle().NonLazy();
+            InstallDependency<GameListeners>();
             
             //Systems
-            Container.Bind<InputSystem>().AsSingle().NonLazy();
-            Container.Bind<PlayerAccelerationSystem>().AsSingle().NonLazy();
-            Container.Bind<PlayerDirectionSystem>().AsSingle().NonLazy();
-            Container.Bind<GameStateSystem>().AsSingle().NonLazy();
-            Container.Bind<CleanupSystem>().AsSingle().NonLazy();
+            InstallSystem<InputSystem>();
+            InstallSystem<PlayerAccelerationSystem>();
+            InstallSystem<PlayerDirectionSystem>();
+            InstallSystem<GameStateSystem>();
+            InstallSystem<TeardownSystem>();
             
             //Feature
-            Container.Bind<SpaceFeature>().AsSingle().NonLazy();
+            //If Feature already exists, bind from instance
+            //To do it, we need to bind to parent container
+            //Container.Bind<SpaceFeature>().AsSingle().NonLazy();
         }
     }
 }

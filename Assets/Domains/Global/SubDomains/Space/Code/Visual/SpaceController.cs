@@ -7,7 +7,6 @@ namespace Domains.Global.SubDomains.Space.Code.Visual
 {
     public class SpaceController : MonoBehaviour
     {
-        [Inject] private DiContainer _container;
         [Inject] private SpaceModule _module;
 
         private void Start()

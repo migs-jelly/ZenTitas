@@ -12,12 +12,12 @@ namespace Domains.Global.Code.Visual
     {
         [SerializeField] private GlobalDomainController _domainController;
         [SerializeField] private DomainsConfigReference _domainsConfigReference;
-        
 
         public override async void InstallBindings()
         {
             Container.Bind<ILogger>().To<Logger>().AsSingle().NonLazy();
             Container.Bind<IDomainService>().To<DomainService>().AsSingle().NonLazy();
+            Container.Bind<Contexts>().FromInstance(Contexts.sharedInstance).NonLazy();
 
             var domainsConfig = await _domainsConfigReference.LoadAssetAsync().Task;
             Container.Bind<DomainsConfig>().FromInstance(domainsConfig).AsSingle();
@@ -30,8 +30,8 @@ namespace Domains.Global.Code.Visual
             
             Container.Bind<GlobalDomainController>().FromInstance(_domainController).AsSingle();
             
+            
             _domainController.Init();
         }
-        
     }
 }

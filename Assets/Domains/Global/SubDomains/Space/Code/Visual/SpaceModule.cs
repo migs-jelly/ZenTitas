@@ -1,7 +1,6 @@
 using System;
 using Domains.Global.Code.Core.Behavior;
 using Domains.Global.Code.Visual.Interfaces;
-using Domains.Global.SubDomains.Space.Code.Core.Components;
 using Domains.Global.SubDomains.Space.Code.Logic;
 using Domains.Global.SubDomains.Space.Code.Logic.Listeners;
 using Domains.Global.SubDomains.Space.Code.Logic.Systems;
@@ -13,13 +12,20 @@ namespace Domains.Global.SubDomains.Space.Code.Visual
 {
     public class SpaceModule : IGameModule, IGameStateListener
     {
-        [Inject] private DiContainer _container;
-        [Inject] private SpaceFeature _feature;
-        [Inject] private Contexts _contexts;
-        [Inject] private IDomainService _domainService;
-        [Inject] private GameListeners _gameListeners;
+        private SpaceFeature _feature;
+        private Contexts _contexts;
+        private IDomainService _domainService;
+        private GameListeners _gameListeners;
 
         private bool _isExiting;
+
+        public void ResolveDependencies(DiContainer container)
+        {
+            _feature = container.Resolve<SpaceFeature>();
+            _contexts = container.Resolve<Contexts>();
+            _domainService = container.Resolve<IDomainService>();
+            _gameListeners = container.Resolve<GameListeners>();
+        }
 
         public void Start()
         {
@@ -57,13 +63,18 @@ namespace Domains.Global.SubDomains.Space.Code.Visual
 
         public void LateUpdate()
         {
-            
+            _feature.Cleanup();
         }
 
         public void Destroy()
         {
             _gameListeners.GameStateListeners.Remove(this);
-            _feature.Cleanup();
+            _feature.TearDown();
+        }
+
+        public void Dispose()
+        {
+            _gameListeners?.Dispose();
         }
     }
 }
