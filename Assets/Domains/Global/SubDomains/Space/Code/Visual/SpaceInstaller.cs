@@ -25,11 +25,6 @@ namespace Domains.Global.SubDomains.Space.Code.Visual
             InstallSystem<PlayerDirectionSystem>();
             InstallSystem<GameStateSystem>();
             InstallSystem<TeardownSystem>();
-            
-            //Feature
-            //If Feature already exists, bind from instance
-            //To do it, we need to bind to parent container
-            //Container.Bind<SpaceFeature>().AsSingle().NonLazy();
         }
     }
 }

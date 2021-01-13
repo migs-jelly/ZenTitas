@@ -21,6 +21,7 @@ namespace Domains.Global.SubDomains.Space.Code.Visual.Behavior
 
         private void Update()
         {
+            //Pretend that you don't see this shit code - it's not relevant to the task ^___^
             var x = transform.position.x;
             var newX = Mathf.Lerp(x, x + (_direction * _speed), Time.deltaTime);
             var destination = new Vector3(newX, transform.position.y, transform.position.z);
