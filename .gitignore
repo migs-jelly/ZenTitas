@@ -58,6 +58,12 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Rider
 .idea
 .idea/*
 .idea*
+
+# custom
+*.userproperties
+[Jj]enny/*
+![Jj]enny/Jenny.properties
