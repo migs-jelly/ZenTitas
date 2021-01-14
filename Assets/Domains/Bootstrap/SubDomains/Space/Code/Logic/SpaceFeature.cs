@@ -7,23 +7,13 @@ namespace Domains.Bootstrap.SubDomains.Space.Code.Logic
 {
     public class SpaceFeature : BootstrapFeature
     {
-        public override void Setup(DiContainer container)
+        protected override void Init()
         {
-            Add<InputSystem>(container);
-            Add<PlayerAccelerationSystem>(container);
-            Add<PlayerDirectionSystem>(container);
-            Add<GameStateSystem>(container);
-            Add<ResolvableTeardownSystem>(container);
-        }
-
-        public override void Disable()
-        {
-            //TODO: Disable Feature
-        }
-
-        public override void Enable()
-        {
-            //TODO: Enable Feature
+            Add<InputSystem>();
+            Add<PlayerAccelerationSystem>();
+            Add<PlayerDirectionSystem>();
+            Add<GameStateSystem>();
+            Add<ResolvableTeardownSystem>();
         }
     }
 }

@@ -28,22 +28,13 @@ namespace Domains.Bootstrap.SubDomains.Space.Code.Logic.Systems
         
         public void TearDown()
         {
-            //This is resolved at the time of teardown, to prevent
-            //circular dependencies at startup
-            var feature = _container.Resolve<SpaceFeature>();
-            
-            feature.DeactivateReactiveSystems();
-            
-            _contexts.game.GetGroup(GameMatcher.GameState).GetSingleEntity().Destroy();
+            _contexts.game.GetGroup(GameMatcher.GameState).GetSingleEntity()?.Destroy();
             
             var playerEntities = _contexts.player.GetEntities();
             foreach (var playerEntity in playerEntities)
             {
                 playerEntity.Destroy();
             }
-            
-            feature.ClearReactiveSystems();
-            feature.ActivateReactiveSystems();
         }
     }
 }

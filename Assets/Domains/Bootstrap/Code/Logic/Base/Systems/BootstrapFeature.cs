@@ -5,15 +5,30 @@ namespace Domains.Bootstrap.Code.Logic.Base.Systems
 {
     public abstract class BootstrapFeature : Feature, IBootstrapSystem
     {
-        public abstract void Setup(DiContainer container);
+        protected DiContainer _container;
 
-        protected void Add<TSystem>(DiContainer container) where TSystem : ISystem
+        public void Setup(DiContainer container)
         {
-            Add(container.Resolve<TSystem>());
+            _container = container;
+            Init();
         }
 
-        public abstract void Disable();
+        protected abstract void Init();
 
-        public abstract void Enable();
+        protected void Add<TSystem>() where TSystem : ISystem
+        {
+            Add(_container.Resolve<TSystem>());
+        }
+
+        public virtual void Disable()
+        {
+            DeactivateReactiveSystems();
+            ClearReactiveSystems();
+        }
+
+        public virtual void Enable()
+        {
+            ActivateReactiveSystems();
+        }
     }
 }
