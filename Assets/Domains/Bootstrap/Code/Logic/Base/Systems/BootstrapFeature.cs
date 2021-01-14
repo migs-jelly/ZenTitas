@@ -1,9 +1,9 @@
 using Entitas;
 using Zenject;
 
-namespace Domains.Bootstrap.Code.Logic.Base
+namespace Domains.Bootstrap.Code.Logic.Base.Systems
 {
-    public abstract class BaseFeature : Feature
+    public abstract class BootstrapFeature : Feature, IBootstrapSystem
     {
         public abstract void Setup(DiContainer container);
 
@@ -11,5 +11,9 @@ namespace Domains.Bootstrap.Code.Logic.Base
         {
             Add(container.Resolve<TSystem>());
         }
+
+        public abstract void Disable();
+
+        public abstract void Enable();
     }
 }

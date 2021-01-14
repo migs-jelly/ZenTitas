@@ -53,25 +53,14 @@ namespace Domains.Bootstrap.SubDomains.Space.Code.Visual
             _feature.Execute();
         }
 
-        public void FixedUpdate()
-        {
-            
-        }
-
-        public void LateUpdate()
-        {
-            _feature.Cleanup();
-        }
-
         public void Destroy()
         {
-            _gameListeners.GameStateListeners.Remove(this);
             _feature.TearDown();
         }
 
         public void Dispose()
         {
-            _gameListeners?.Dispose();
+            _gameListeners?.GameStateListeners?.Remove(this);
         }
     }
 }

@@ -7,7 +7,7 @@ using Zenject;
 
 namespace Domains.Bootstrap.SubDomains.Space.Code.Logic.Systems
 {
-    public class InputSystem : IBootstrapExecuteSystem
+    public class InputSystem : IBootstrapResolvableExecuteSystem
     {
         private const float AXIS_CHANGE_TOLERANCE = 0.01f;
         
@@ -21,6 +21,18 @@ namespace Domains.Bootstrap.SubDomains.Space.Code.Logic.Systems
         {
             _playerInputService = container.Resolve<IPlayerInputService>();
             _contexts = container.Resolve<Contexts>();
+        }
+
+        public void Disable()
+        {
+            //TODO: Disable the system
+            //Consider to provide basic implementation in the base class
+        }
+
+        public void Enable()
+        {
+            //TODO: Enable the system
+            //Consider to provide basic implementation in the base class
         }
         
         public void Execute()

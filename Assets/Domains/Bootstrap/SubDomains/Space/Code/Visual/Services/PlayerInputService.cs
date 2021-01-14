@@ -1,7 +1,7 @@
 using Domains.Bootstrap.SubDomains.Space.Code.Core.Services;
 using UnityEngine;
 
-namespace Domains.Bootstrap.SubDomains.Space.Code.Visual.Components
+namespace Domains.Bootstrap.SubDomains.Space.Code.Visual.Services
 {
     public class PlayerInputService : IPlayerInputService
     {

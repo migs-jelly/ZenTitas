@@ -29,7 +29,7 @@ namespace Domains.Bootstrap.SubDomains.Space.Code.Visual.Behavior
 
         private void OnDestroy()
         {
-            _listeners.DirectionListeners.Remove(this);
+            _listeners?.DirectionListeners?.Remove(this);
         }
 
         public void OnDirectionChanged(float direction)

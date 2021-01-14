@@ -6,7 +6,7 @@ using Zenject;
 
 namespace Domains.Bootstrap.SubDomains.Space.Code.Logic.Systems
 {
-    public class GameStateSystem : BootstrapReactiveSystem<GameEntity>
+    public class GameStateSystem : BootstrapResolvableReactiveSystem<GameEntity>
     {
         private Contexts _contexts;
         
@@ -22,6 +22,18 @@ namespace Domains.Bootstrap.SubDomains.Space.Code.Logic.Systems
         {
             _logger = container.Resolve<ILogger>();
             _listeners = container.Resolve<GameListeners>();
+        }
+
+        public override void Disable()
+        {
+            //TODO: Disable the system
+            //Consider to provide basic implementation in the base class
+        }
+
+        public override void Enable()
+        {
+            //TODO: Enable the system
+            //Consider to provide basic implementation in the base class
         }
 
         protected override ICollector<GameEntity> GetTrigger(IContext<GameEntity> context)
