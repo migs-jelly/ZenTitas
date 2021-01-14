@@ -1,6 +1,6 @@
 using Entitas;
 
-namespace EntitasData.Domains.Space
+namespace ZenTitas.Data.EntitasData.Domains.Space
 {
     [Player]
     public class Death : IComponent

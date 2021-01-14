@@ -1,4 +1,4 @@
-namespace EntitasData.Data
+namespace ZenTitas.Data.EntitasData.Data
 {
     public struct Vector3
     {

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using EntitasData.Domains.Space;
+using ZenTitas.Data.EntitasData.Domains.Space;
 
 public partial class PlayerEntity {
 
