@@ -35,6 +35,12 @@ namespace Domains.Bootstrap.SubDomains.Space.Code.Logic.Systems
             //Consider to provide basic implementation in the base class
         }
         
+        public void TearDown()
+        {
+            _playerInputService = null;
+            _contexts = null;
+        }
+        
         public void Execute()
         {
             //Direction

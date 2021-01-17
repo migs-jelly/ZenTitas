@@ -2,7 +2,7 @@ using Entitas;
 
 namespace Domains.Bootstrap.Code.Logic.Base.Systems
 {
-    public interface IBootstrapSystem : ISystem
+    public interface IBootstrapSystem : ITearDownSystem
     {
         /// <summary>
         /// Disabling the system

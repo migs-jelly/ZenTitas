@@ -13,7 +13,7 @@ namespace Domains.Bootstrap.SubDomains.Space.Code.Logic
             Add<PlayerAccelerationSystem>();
             Add<PlayerDirectionSystem>();
             Add<GameStateSystem>();
-            Add<ResolvableTeardownSystem>();
+            Add<SpaceTeardownSystem>();
         }
     }
 }

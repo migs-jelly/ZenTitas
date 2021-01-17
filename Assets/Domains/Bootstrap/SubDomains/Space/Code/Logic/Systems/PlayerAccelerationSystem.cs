@@ -33,6 +33,11 @@ namespace Domains.Bootstrap.SubDomains.Space.Code.Logic.Systems
             //Consider to provide basic implementation in the base class
         }
 
+        public override void TearDown()
+        {
+            _logger = null;
+        }
+
         protected override ICollector<PlayerEntity> GetTrigger(IContext<PlayerEntity> context)
         {
             return context.CreateCollector(PlayerMatcher.Acceleration.Added());

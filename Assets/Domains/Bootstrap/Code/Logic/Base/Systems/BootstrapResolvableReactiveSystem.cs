@@ -14,5 +14,10 @@ namespace Domains.Bootstrap.Code.Logic.Base.Systems
         public abstract void Disable();
 
         public abstract void Enable();
+        
+        /// <summary>
+        /// A place to clean all of your references
+        /// </summary>
+        public abstract void TearDown();
     }
 }

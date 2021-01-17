@@ -26,7 +26,7 @@ namespace Domains.Bootstrap.SubDomains.Space.Code.Visual
             InstallSystem<PlayerAccelerationSystem>();
             InstallSystem<PlayerDirectionSystem>();
             InstallSystem<GameStateSystem>();
-            InstallSystem<ResolvableTeardownSystem>();
+            InstallSystem<SpaceTeardownSystem>();
         }
     }
 }

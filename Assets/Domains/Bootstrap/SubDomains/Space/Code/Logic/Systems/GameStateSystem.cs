@@ -9,7 +9,6 @@ namespace Domains.Bootstrap.SubDomains.Space.Code.Logic.Systems
     public class GameStateSystem : BootstrapResolvableReactiveSystem<GameEntity>
     {
         private Contexts _contexts;
-        
         private ILogger _logger;
         private GameListeners _listeners;
         
@@ -54,6 +53,12 @@ namespace Domains.Bootstrap.SubDomains.Space.Code.Logic.Systems
                 _logger.Log($"Game State changed: {isRunning}");
                 _listeners.GameStateListeners.ForEach(l => l.OnGameStateChanged(entity.gameState));
             }
+        }
+
+        public override void TearDown()
+        {
+            _listeners = null;
+            _logger = null;
         }
     }
 }

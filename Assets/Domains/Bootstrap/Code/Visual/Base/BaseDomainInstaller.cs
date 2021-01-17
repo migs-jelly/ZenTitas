@@ -42,6 +42,8 @@ namespace Domains.Bootstrap.Code.Visual.Base
             where TService : TServiceInterface
         {
             Container.Bind<TServiceInterface>().To<TService>().AsSingle().NonLazy();
+            var service = Container.Resolve<TServiceInterface>();
+            _disposables.Add(service);
         }
 
         protected void InstallService<TServiceInterface, TService>(TService service) 

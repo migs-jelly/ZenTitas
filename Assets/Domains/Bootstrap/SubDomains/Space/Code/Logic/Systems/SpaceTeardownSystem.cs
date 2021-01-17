@@ -3,7 +3,7 @@ using Zenject;
 
 namespace Domains.Bootstrap.SubDomains.Space.Code.Logic.Systems
 {
-    public class ResolvableTeardownSystem : IBootstrapResolvableTeardownSystem
+    public class SpaceTeardownSystem : IBootstrapResolvableTeardownSystem
     {
         private Contexts _contexts;
         private DiContainer _container;
