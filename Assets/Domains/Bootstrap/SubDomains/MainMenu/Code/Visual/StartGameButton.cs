@@ -1,4 +1,4 @@
-using Domains.Bootstrap.Code.Visual.Interfaces;
+using Domains.Bootstrap.Code.Visual.Services;
 using UnityEngine;
 using Zenject;
 

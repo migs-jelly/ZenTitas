@@ -3,9 +3,9 @@ using Zenject;
 
 namespace Domains.Bootstrap.Code.Logic.Base.Systems
 {
-    public abstract class BootstrapResolvableReactiveSystem<TEntity> : ReactiveSystem<TEntity>, IBootstrapResolvableSystem where TEntity : class, IEntity
+    public abstract class ResolvableReactiveSystem<TEntity> : ReactiveSystem<TEntity>, IResolvableSystem where TEntity : class, IEntity
     {
-        protected BootstrapResolvableReactiveSystem(IContext<TEntity> context) : base(context)
+        protected ResolvableReactiveSystem(IContext<TEntity> context) : base(context)
         {
         }
 

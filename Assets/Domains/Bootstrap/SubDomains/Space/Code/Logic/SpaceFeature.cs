@@ -5,7 +5,7 @@ using Zenject;
 
 namespace Domains.Bootstrap.SubDomains.Space.Code.Logic
 {
-    public class SpaceFeature : BootstrapFeature
+    public class SpaceFeature : BaseFeature
     {
         protected override void Init()
         {

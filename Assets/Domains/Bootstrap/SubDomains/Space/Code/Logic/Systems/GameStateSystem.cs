@@ -1,15 +1,16 @@
 using System.Collections.Generic;
 using Domains.Bootstrap.Code.Core.Behavior;
+using Domains.Bootstrap.Code.Core.Services;
 using Domains.Bootstrap.Code.Logic.Base.Systems;
 using Entitas;
 using Zenject;
 
 namespace Domains.Bootstrap.SubDomains.Space.Code.Logic.Systems
 {
-    public class GameStateSystem : BootstrapResolvableReactiveSystem<GameEntity>
+    public class GameStateSystem : ResolvableReactiveSystem<GameEntity>
     {
         private Contexts _contexts;
-        private ILogger _logger;
+        private ILoggerService _loggerService;
         private GameListeners _listeners;
         
         public GameStateSystem(Contexts contexts) : base(contexts.game)
@@ -19,7 +20,7 @@ namespace Domains.Bootstrap.SubDomains.Space.Code.Logic.Systems
         
         public override void ResolveDependencies(DiContainer container)
         {
-            _logger = container.Resolve<ILogger>();
+            _loggerService = container.Resolve<ILoggerService>();
             _listeners = container.Resolve<GameListeners>();
         }
 
@@ -50,7 +51,7 @@ namespace Domains.Bootstrap.SubDomains.Space.Code.Logic.Systems
             foreach (var entity in entities)
             {
                 var isRunning = entity.gameState.IsRunning;
-                _logger.Log($"Game State changed: {isRunning}");
+                _loggerService.Log($"Game State changed: {isRunning}");
                 _listeners.GameStateListeners.ForEach(l => l.OnGameStateChanged(entity.gameState));
             }
         }
@@ -58,7 +59,7 @@ namespace Domains.Bootstrap.SubDomains.Space.Code.Logic.Systems
         public override void TearDown()
         {
             _listeners = null;
-            _logger = null;
+            _loggerService = null;
         }
     }
 }

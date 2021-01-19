@@ -1,15 +1,15 @@
 using System;
 using System.Timers;
+using Domains.Bootstrap.Code.Core.Services;
 using Domains.Bootstrap.SubDomains.Space.Code.Core.Services;
 using UnityEngine;
 using Zenject;
-using ILogger = Domains.Bootstrap.Code.Core.Behavior.ILogger;
 
 namespace Domains.Bootstrap.SubDomains.Space.Code.Visual.Services
 {
     public class BehaviourTestService : MonoBehaviour, IBehaviourTestService
     {
-        [Inject] private ILogger _logger;
+        [Inject] private ILoggerService _loggerService;
         
         private Timer _timer;
 
@@ -22,7 +22,7 @@ namespace Domains.Bootstrap.SubDomains.Space.Code.Visual.Services
 
         private void TimerOnElapsed(object sender, ElapsedEventArgs e)
         {
-            _logger.Log("Timer tick");
+            _loggerService.Log("Timer tick");
         }
 
         public void DoSomeStuff()

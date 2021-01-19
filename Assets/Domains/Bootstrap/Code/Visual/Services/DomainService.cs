@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Domains.Bootstrap.Code.Visual.Config;
 using Domains.Bootstrap.Code.Visual.Helpers;
-using Domains.Bootstrap.Code.Visual.Interfaces;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.ResourceProviders;
 using UnityEngine.SceneManagement;
@@ -76,6 +75,13 @@ namespace Domains.Bootstrap.Code.Visual.Services
         {
             var scene = await sceneReference.LoadSceneAsync(LoadSceneMode.Additive, false).Task;
             _newDomainScenes.Push(scene);
+        }
+
+        public void Dispose()
+        {
+            _newDomainScenes.Clear();
+            _loadedDomainScenes.Clear();
+            _container = null;
         }
     }
 }

@@ -5,24 +5,23 @@ using Zenject;
 
 namespace Domains.Bootstrap.Code.Logic.Systems
 {
-    public class TimerSystem : IBootstrapResolvableInitializeSystem
+    public class TimerSystem : IResolvableInitializeSystem
     {
-        public const int DEFAULT_INTERVAL_IN_SECONDS = 1;
         private const int MS_IN_SECOND = 1000;
-
-        public double IntervalInSeconds
-        {
-            get => _timer.Interval / MS_IN_SECOND;
-            set => _timer.Interval = value * MS_IN_SECOND;
-        }
+        private const int SECONDS_IN_MINUTE = 60;
+        private const int SECONDS_IN_HOUR = 60 * 60;
         
-        public event Action Tick;
+        public int TotalSecondsPassed { get; private set; }
+        
+        public event Action SecondPassed;
+        public event Action MinutePassed;
+        public event Action HourPassed;
         
         private Timer _timer;
 
         public TimerSystem()
         {
-            _timer = new Timer(DEFAULT_INTERVAL_IN_SECONDS * MS_IN_SECOND);
+            _timer = new Timer(MS_IN_SECOND);
             _timer.Elapsed += TimerOnElapsed;
         }
 
@@ -55,7 +54,19 @@ namespace Domains.Bootstrap.Code.Logic.Systems
 
         private void TimerOnElapsed(object sender, ElapsedEventArgs e)
         {
-            Tick?.Invoke();
+            TotalSecondsPassed++;
+            
+            SecondPassed?.Invoke();
+
+            if (TotalSecondsPassed != 0 && TotalSecondsPassed % SECONDS_IN_MINUTE == 0)
+            {
+                MinutePassed?.Invoke();
+            }
+
+            if (TotalSecondsPassed != 0 && TotalSecondsPassed % SECONDS_IN_HOUR == 0)
+            {
+                HourPassed?.Invoke();
+            }
         }
     }
 }

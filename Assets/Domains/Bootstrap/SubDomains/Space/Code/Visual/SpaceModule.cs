@@ -1,5 +1,5 @@
 using Domains.Bootstrap.Code.Core.Behavior;
-using Domains.Bootstrap.Code.Visual.Interfaces;
+using Domains.Bootstrap.Code.Visual.Services;
 using Domains.Bootstrap.SubDomains.Space.Code.Logic;
 using Domains.Bootstrap.SubDomains.Space.Code.Logic.Listeners;
 using Zenject;
@@ -7,7 +7,7 @@ using ZenTitas.Data.EntitasData.Domains.Space;
 
 namespace Domains.Bootstrap.SubDomains.Space.Code.Visual
 {
-    public class SpaceModule : IBootstrapModule, IGameStateListener
+    public class SpaceModule : IBaseModule, IGameStateListener
     {
         private SpaceFeature _feature;
         private Contexts _contexts;

@@ -7,7 +7,7 @@ using Zenject;
 
 namespace Domains.Bootstrap.SubDomains.Space.Code.Logic.Systems
 {
-    public class InputSystem : IBootstrapResolvableExecuteSystem
+    public class InputSystem : IResolvableExecuteSystem
     {
         private const float AXIS_CHANGE_TOLERANCE = 0.01f;
         

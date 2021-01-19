@@ -3,7 +3,7 @@ using Zenject;
 
 namespace Domains.Bootstrap.Code.Logic.Base.Systems
 {
-    public abstract class BootstrapFeature : Feature, IBootstrapSystem
+    public abstract class BaseFeature : Feature, IBaseSystem
     {
         protected DiContainer _container;
 

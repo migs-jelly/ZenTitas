@@ -1,9 +1,8 @@
 using UnityEngine;
-using ILogger = Domains.Bootstrap.Code.Core.Behavior.ILogger;
 
 namespace Domains.Bootstrap.Code.Visual
 {
-    public class Logger : ILogger
+    public class LoggerService : Core.Services.ILoggerService
     {
         public void Log(string message)
         {
@@ -18,6 +17,10 @@ namespace Domains.Bootstrap.Code.Visual
         public void LogError(string message)
         {
             Debug.LogError(message);
+        }
+
+        public void Dispose()
+        {
         }
     }
 }

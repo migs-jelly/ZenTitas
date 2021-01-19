@@ -1,15 +1,16 @@
 using System.Collections.Generic;
 using Domains.Bootstrap.Code.Core.Behavior;
+using Domains.Bootstrap.Code.Core.Services;
 using Domains.Bootstrap.Code.Logic.Base.Systems;
 using Entitas;
 using Zenject;
 
 namespace Domains.Bootstrap.SubDomains.Space.Code.Logic.Systems
 {
-    public class PlayerAccelerationSystem : BootstrapResolvableReactiveSystem<PlayerEntity>
+    public class PlayerAccelerationSystem : ResolvableReactiveSystem<PlayerEntity>
     {
         private Contexts _contexts;
-        private ILogger _logger;
+        private ILoggerService _loggerService;
         
         public PlayerAccelerationSystem(Contexts contexts) : base(contexts.player)
         {
@@ -18,7 +19,7 @@ namespace Domains.Bootstrap.SubDomains.Space.Code.Logic.Systems
         
         public override void ResolveDependencies(DiContainer container)
         {
-            _logger = container.Resolve<ILogger>();
+            _loggerService = container.Resolve<ILoggerService>();
         }
 
         public override void Disable()
@@ -35,7 +36,7 @@ namespace Domains.Bootstrap.SubDomains.Space.Code.Logic.Systems
 
         public override void TearDown()
         {
-            _logger = null;
+            _loggerService = null;
         }
 
         protected override ICollector<PlayerEntity> GetTrigger(IContext<PlayerEntity> context)
@@ -52,7 +53,7 @@ namespace Domains.Bootstrap.SubDomains.Space.Code.Logic.Systems
         {
             foreach (var entity in entities)
             {
-                _logger.Log($"Acceleration changed: {entity.acceleration.IsAccelerated}");
+                _loggerService.Log($"Acceleration changed: {entity.acceleration.IsAccelerated}");
             }
         }
     }

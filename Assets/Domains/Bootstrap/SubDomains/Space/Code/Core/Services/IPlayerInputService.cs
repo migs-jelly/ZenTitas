@@ -2,7 +2,7 @@ using Domains.Bootstrap.Code.Core.Base;
 
 namespace Domains.Bootstrap.SubDomains.Space.Code.Core.Services
 {
-    public interface IPlayerInputService : IBootstrapService
+    public interface IPlayerInputService : IBaseService
     {
         float HorizontalAxis { get; }
         bool IsAccelerating { get; }
